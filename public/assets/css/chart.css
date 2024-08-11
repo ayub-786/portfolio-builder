@@ -1,0 +1,349 @@
+#container-chart {
+    height: 70vh;
+    display: block;
+}
+
+.highcharts-xaxis-grid .highcharts-grid-line {
+    stroke-width: 1px;
+    stroke: #e6e6e6;
+}
+
+.highcharts-xaxis .highcharts-tick {
+    stroke-width: 1px;
+    stroke: #e6e6e6;
+}
+
+.highcharts-minor-grid-line {
+    stroke-dasharray: 1, 1;
+}
+
+/* .serach-deskviewnone1 {
+    margin: 5px;
+    width: auto;
+} */
+
+.highcharts-bindings-wrapper li>span.highcharts-submenu-item-arrow {
+    float: left;
+    width: 100% !important;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0;
+}
+
+.highcharts-range-selector-buttons .highcharts-label {
+    display: none !important;
+}
+
+.reset-zoom-btn {
+    position: absolute;
+    right: 55px;
+    top: 5px;
+}
+
+.hover_line_treading {
+    display: inline-block;
+    vertical-align: baseline;
+    position: absolute;
+    top: -5px;
+    height: 468px;
+    z-index: 9;
+    left: 10px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.cust-form-control:focus {
+    box-shadow: none !important;
+}
+
+.cust-form-control {
+    width: auto !important;
+}
+
+.highcharts-tab-item {
+    text-transform: capitalize;
+}
+
+.top-btn-chart-new {
+    display: flex;
+    align-items: flex-end;
+}
+
+.blue-btn-cust-new {
+    white-space: nowrap;
+    background-color: #fff;
+    width: 100%;
+    font-size: 14px;
+    padding: 0px 10px;
+
+}
+
+.blue-btn-cust-new:hover {
+    background-color: #ededf5;
+}
+
+.custom-drop-button-chart {
+    position: unset;
+}
+
+.cust-select {
+    background-color: #fff;
+    border: 1px solid #ced4da !important;
+    white-space: nowrap;
+    border-radius: 0;
+
+}
+
+.cust-select:hover {
+    background-color: #ced4da;
+}
+
+#select-options #parent-option , #select-options #watchlist-options, #select-options2 #watchlist-options{
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    height: 270px;
+    overflow: auto;
+    box-shadow: 0 2px 4px 0 rgb(107 121 136 / 40%);
+    -webkit-box-shadow: 0 2px 4px 0 rgb(107 121 136 / 40%);
+    -moz-box-shadow: 0 2px 4px 0 rgba(107, 121, 136, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.8vw;
+}
+
+#optionsOfSelectbox {
+    border-bottom: 1px solid #ced4da;
+    padding: 10px 0;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+
+}
+
+#optionsOfSelectbox:hover {
+    background-color: var(--blue);
+    color: #fff;
+}
+
+#optionsOfSelectbox:last-child {
+    border-bottom: none;
+}
+
+.cust-select i {
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.cust-select-box {
+    transform: translate(0%, 18%);
+    display: none;
+    transition: 0.3s all;
+}
+
+.cust-select-box.active {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(107 121 136 / 40%);
+    -webkit-box-shadow: 0 2px 4px 0 rgb(107 121 136 / 40%);
+    -moz-box-shadow: 0 2px 4px 0 rgba(107, 121, 136, 0.4);
+    border: 0;
+    display: block;
+    position: absolute;
+    min-height: 150px;
+    overflow-y: auto;
+    min-width: 150px;
+    z-index: 9 !important;
+    padding: 10px;
+    right: 0;
+    transform: translate(0%, 10%);
+}
+
+.cust-select-box ul li {
+    padding: 10px 5px;
+    border-radius: 1px solid #ced4da;
+    transition: 0.3s all;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.cust-select-box.active ul li {
+    margin-left: 0;
+}
+
+.cust-select-box ul li:hover {
+    background-color: #2772c7;
+    color: #fff;
+}
+
+.indicator-header {
+    text-align: center;
+    font-size: 16px;
+    color: var(--blue);
+    margin-top: 14px;
+}
+
+.cust-select img {
+    width: 20px;
+}
+
+/* .chart1-btn-top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+} */
+.hover-div-search {
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    color: #fff;
+}
+
+.hover-div-search:hover {
+
+    background-color: #fff;
+}
+
+.left-prev-chart-btn {
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #eee;
+    font-size: 0.8vw;
+}
+
+#newCharLoader {
+    height: 70vh !important;
+}
+
+.left-prev-chart-btn i {
+    color: var(--blue);
+}
+
+.left-prev-chart-btn:hover {
+    background-color: #ededf5;
+
+}
+
+.highcharts-arrow-up,
+.highcharts-arrow-down {
+    background-color: #E6EBF5;
+}
+
+.zoom-in-out-btn {
+    background-color: #ededf5;
+    border: none;
+}
+
+.highcharts-arrow-down {
+    background-image: url(../img/down-arrow.png) !important;
+    width: 16px !important;
+    background-position: center;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.highcharts-arrow-up {
+    background-image: url(../img/up-arrow.png) !important;
+    width: 16px !important;
+    background-position: center;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.highcharts-bindings-wrapper .highcharts-arrow-up,
+.highcharts-bindings-wrapper .highcharts-arrow-down {
+    transform: rotate(0deg) !important;
+}
+
+.blue-btn-cust-new {
+    font-size: 0.8vw;
+}
+
+@media screen and (max-width: 1280px) {
+    .top-btn-chart-new {
+        flex-direction: column;
+    }
+    .chart1-btn-top {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 10px;
+        justify-content: flex-end;
+    }
+}
+@media(max-width: 1440px){
+    .left-prev-chart-btn{
+        font-size: 1vw;
+    }
+    .blue-btn-cust-new{
+        font-size: 0.9vw !important;
+    }
+}
+@media(max-width: 1199px){
+    .left-prev-chart-btn{
+        font-size: 14px;
+    }
+    .blue-btn-cust-new{
+        font-size: 12px !important;
+    }
+}
+
+@media(max-width:767px) {
+    .top-btn-chart-new {
+        display: block;
+    }
+
+    .cust-select-box.active {
+        right: 0;
+        z-index: 99 !important;
+
+    }
+
+    .left-prev-chart-btn,
+    .zoom-in-out-btn {
+        font-size: 10px;
+    }
+
+    .blue-btn-cust-new {
+        padding: 5px 10px;
+    }
+}
+
+/* 
+.highcharts-root rect {
+    outline: 1px solid black;
+    outline-offset: 4px;
+} */
+
+.highcharts-toggle-toolbar {
+    position: absolute;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    background-color: #f7f7f7;
+    display: none;
+    background-size: cover;
+}
+
+.iframeChart {
+    height: 80vh !important;
+}
+
+@media(max-width: 991px) {
+    .left-prev-chart-btn {
+        font-size: 14px;
+    }
+
+    #select-options #parent-option {
+        font-size: 14px;
+    }
+
+
+
+}
